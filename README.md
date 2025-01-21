@@ -73,9 +73,9 @@ The Hospital Management System is a web application designed to streamline hospi
 
     ```js
     const admin = new Admin({
-      firstName: "abc",
-      lastName: "xyz",
-      email: "abc@gmail.com",
+      firstName: "Diksha",
+      lastName: "vashist",
+      email: "vashist@gmail.com",
       password: "xyz123", 
       role: "admin"
     });
