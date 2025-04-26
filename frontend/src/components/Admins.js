@@ -111,7 +111,7 @@ export default function AdminDashboard() {
         // Handle not authenticated case
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/profile', {
+      const response = await fetch('http://hos-manage.eu-north-1.elasticbeanstalk.com/api/admin/profile', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -135,7 +135,7 @@ export default function AdminDashboard() {
       if (!token) {
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/total-doctors', {
+      const response = await fetch('http://hos-manage.eu-north-1.elasticbeanstalk.com/api/admin/total-doctors', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -157,7 +157,7 @@ export default function AdminDashboard() {
       if (!token) {
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/total-patients', {
+      const response = await fetch('http://hos-manage.eu-north-1.elasticbeanstalk.com/api/admin/total-patients', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -179,7 +179,7 @@ export default function AdminDashboard() {
       if (!token) {
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/doctor-overview', {
+      const response = await fetch('http://hos-manage.eu-north-1.elasticbeanstalk.com/api/admin/doctor-overview', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -201,7 +201,7 @@ export default function AdminDashboard() {
       if (!token) {
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/patient-overview', {
+      const response = await fetch('http://hos-manage.eu-north-1.elasticbeanstalk.com/api/admin/patient-overview', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
